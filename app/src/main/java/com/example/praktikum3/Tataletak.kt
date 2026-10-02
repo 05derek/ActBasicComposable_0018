@@ -103,4 +103,9 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
         )
     }
 
+    @Composable
+    fun HalamanLogin(modifier: Modifier = Modifier) {
+        // Kerangka fungsi baru
+    }
+
 }
