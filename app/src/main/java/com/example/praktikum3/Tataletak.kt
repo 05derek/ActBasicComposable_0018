@@ -70,7 +70,9 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
             modifier = modifier.height(110.dp).fillMaxWidth().background(color = Color.Yellow),
             contentAlignment = Alignment.Center
         ) {
-
+            Column {
+                // Baris akan disisipkan di sini
+            }
         }
     }
 }
