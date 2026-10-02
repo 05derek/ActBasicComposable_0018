@@ -2,3 +2,10 @@ package com.example.praktikum3
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+
+@Composable
+fun TugasLogin(modifier: Modifier = Modifier) {
+    val bgImage = painterResource(id = R.drawable.gambar_background)
+    val logoInstitusi = painterResource(id = R.drawable.gambar_logo)
+    val photoLingkaran = painterResource(id = R.drawable.gambar_pemandangan)
+}
