@@ -18,7 +18,6 @@ class MainActivity : ComponentActivity() {
             Praktikum3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     TugasLogin(
-                        // Menggunakan innerPadding yang sesuai
                         modifier = Modifier.padding(innerPadding)
                     )
                 }

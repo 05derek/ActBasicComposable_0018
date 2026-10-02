@@ -30,66 +30,68 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )
-    }
 
-    Column(
-        modifier = Modifier.fillMaxSize().padding(top = 80.dp),
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
+
+        Column(
+            modifier = Modifier.fillMaxSize().padding(top = 80.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Text(
+                text = "Login",
+                fontSize = 40.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
+
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 16.sp,
+                color = Color.White
+            )
+        }
+
+
+        Spacer(
+            modifier = Modifier.height(30.dp)
+        )
+
+        Image(
+            painter = logoInstitusi,
+            contentDescription = "Logo",
+            modifier = Modifier.size(130.dp)
+        )
+
+        Spacer(
+            modifier = Modifier.height(20.dp)
+        )
+
         Text(
-            text = "Login",
-            fontSize = 40.sp,
+            text = "Nama",
+            fontSize = 18.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Red
+        )
+
+        Text(
+            text = "Derek Dzakir Cadudasa",
+            fontSize = 22.sp,
             fontWeight = FontWeight.Bold,
             color = Color.Blue
         )
 
         Text(
-            text = "Ini adalah halaman login,",
-            fontSize = 16.sp,
-            color = Color.White
+            text = "20240140018",
+            fontSize = 26.sp,
+            fontWeight = FontWeight.ExtraBold,
+            color = Color.Black
+        )
+
+        Spacer(modifier = Modifier.height(40.dp))
+        Image(
+            painter = photoLingkaran,
+            contentDescription = "Foto Lingkaran",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.size(220.dp).clip(CircleShape)
         )
     }
-
-    Spacer(
-        modifier = Modifier.height(30.dp)
-    )
-
-    Image(
-        painter = logoInstitusi,
-        contentDescription = "Logo",
-        modifier = Modifier.size(130.dp)
-    )
-
-    Spacer(
-        modifier = Modifier.height(20.dp)
-    )
-
-    Text(
-        text = "Nama",
-        fontSize = 18.sp,
-        fontWeight = FontWeight.Bold,
-        color = Color.Red
-    )
-
-    Text(
-        text = "Derek Dzakir Cadudasa",
-        fontSize = 22.sp,
-        fontWeight = FontWeight.Bold,
-        color = Color.Blue
-    )
-
-    Text(
-        text = "20240140018",
-        fontSize = 26.sp,
-        fontWeight = FontWeight.ExtraBold,
-        color = Color.Black
-    )
-
-    Spacer(modifier = Modifier.height(40.dp))
-    Image(
-        painter = photoLingkaran,
-        contentDescription = "Foto Lingkaran",
-        contentScale = ContentScale.Crop,
-        modifier = Modifier.size(220.dp).clip(CircleShape)
-    )
 }
