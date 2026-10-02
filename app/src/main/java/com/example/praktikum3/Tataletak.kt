@@ -121,7 +121,8 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                 modifier = Modifier.fillMaxSize().padding(top = 80.dp)
                         horizontalAlignment = Alignment.CenterHorizontally
             ) {
-
+                Text(text = "Login", fontSize = 40.sp, fontWeight = FontWeight.Bold, color = Color.Blue)
+                Text(text = "Ini adalah halaman login,", fontSize = 16.sp, color = Color.White)
             }
         }
     }
