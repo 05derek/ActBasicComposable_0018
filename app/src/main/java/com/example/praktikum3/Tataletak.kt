@@ -119,7 +119,10 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
 
             Column(
                 modifier = Modifier.fillMaxSize().padding(top = 80.dp)
-            ) { }
+                        horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+
+            }
         }
     }
 
