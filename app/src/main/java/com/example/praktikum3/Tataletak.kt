@@ -134,6 +134,12 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                 )
 
                 Spacer(modifier = Modifier.height(30.dp))
+
+                Image(
+                    painter = logoInstitusi,
+                    contentDescription = "Logo",
+                    modifier = Modifier.size(130.dp)
+                )
             }
         }
     }
