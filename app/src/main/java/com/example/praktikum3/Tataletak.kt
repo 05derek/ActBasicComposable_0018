@@ -116,6 +116,10 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                 contentScale = ContentScale.Crop,
                 modifier = Modifier.fillMaxSize()
             )
+
+            Column(
+                modifier = Modifier.fillMaxSize().padding(top = 80.dp)
+            ) { }
         }
     }
 
