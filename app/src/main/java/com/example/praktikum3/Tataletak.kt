@@ -149,6 +149,20 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                     fontWeight = FontWeight.Bold,
                     color = Color.Red
                 )
+
+                Text(
+                    text = "Derek Dzakir Cadudasa",
+                    fontSize = 22.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Blue
+                )
+
+                Text(
+                    text = "20240140018",
+                    fontSize = 26.sp,
+                    fontWeight = FontWeight.ExtraBold,
+                    color = Color.Black
+                )
             }
         }
     }
