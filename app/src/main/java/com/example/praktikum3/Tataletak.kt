@@ -105,7 +105,9 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
 
     @Composable
     fun HalamanLogin(modifier: Modifier = Modifier) {
-        // Kerangka fungsi baru
+        val bgImage = painterResource(id = R.drawable.gambar_background)
+        val logoInstitusi = painterResource(id = R.drawable.gambar_logo)
+        val photoLingkaran = painterResource(id = R.drawable.gambar_pemandangan)
     }
 
 }
