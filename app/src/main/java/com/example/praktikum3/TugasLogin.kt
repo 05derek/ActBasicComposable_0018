@@ -45,4 +45,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
         contentDescription = "Logo",
         modifier = Modifier.size(130.dp)
     )
+
+    Spacer(
+        modifier = Modifier.height(20.dp)
+    )
+
+    Text(
+        text = "Nama",
+        fontSize = 18.sp,
+        fontWeight = FontWeight.Bold,
+        color = Color.Red
+    )
 }
