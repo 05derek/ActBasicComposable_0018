@@ -110,6 +110,12 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
         val photoLingkaran = painterResource(id = R.drawable.gambar_pemandangan)
 
         Box(modifier = modifier.fillMaxSize()) {
+            Image(
+                painter = bgImage,
+                contentDescription = "Background",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier.fillMaxSize()
+            )
         }
     }
 
