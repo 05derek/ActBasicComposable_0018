@@ -14,6 +14,9 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.draw.clip
+import androidx.compose.foundation.shape.CircleShape
+
 
 @Composable
 fun TataletakColum(modifier: Modifier = Modifier) {
@@ -71,12 +74,18 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
             contentAlignment = Alignment.Center
         ) {
             Column {
-                Row(modifier = modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
+                Row(
+                    modifier = modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
                     Text(text = "Col1 Row1 Komponen1")
                     Text(text = "Col1 Row1 Komponen2")
                     Text(text = "Col1 Row1 Komponen3")
                 }
-                Row(modifier = modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
+                Row(
+                    modifier = modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
                     Text(text = "Col1 Row2 Komponen1")
                     Text(text = "Col1 Row2 Komponen2")
                     Text(text = "Col1 Row2 Komponen3")
@@ -168,13 +177,11 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
 
                 Image(
                     painter = photoLingkaran,
+                    contentDescription = "Foto Lingkaran",
                     contentScale = ContentScale.Crop,
                     modifier = Modifier.size(220.dp).clip(CircleShape)
                 )
             }
         }
     }
-
-
-
 }
