@@ -14,9 +14,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Praktikum3Theme {
+            MyLayoutTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TataletakBoxColumnRow(
+                    HalamanLogin(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
