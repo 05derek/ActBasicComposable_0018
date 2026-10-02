@@ -163,6 +163,14 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                     fontWeight = FontWeight.ExtraBold,
                     color = Color.Black
                 )
+
+                Spacer(modifier = Modifier.height(40.dp))
+
+                Image(
+                    painter = photoLingkaran,
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier.size(220.dp).clip(CircleShape)
+                )
             }
         }
     }
