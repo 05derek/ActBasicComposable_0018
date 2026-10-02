@@ -111,6 +111,7 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
             fontFamily = FontFamily.Cursive
         )
     }
+}
 
     @Composable
     fun HalamanLogin(modifier: Modifier = Modifier) {
@@ -127,7 +128,7 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
             )
 
             Column(
-                modifier = Modifier.fillMaxSize().padding(top = 80.dp)
+                modifier = Modifier.fillMaxSize().padding(top = 80.dp),
                         horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Text(
@@ -184,4 +185,3 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
             }
         }
     }
-}
