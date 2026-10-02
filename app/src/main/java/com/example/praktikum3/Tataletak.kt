@@ -64,8 +64,13 @@ fun TataletakCostumHR(modifier: Modifier = Modifier) {
 
 @Composable
 fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
-    val gambar = painterResource(id = R.drawable.notasinaton) // Sesuaikan nama file gambar Anda
+    val gambar = painterResource(id = R.drawable.notasinaton)
     Column {
-        // Konten akan ditambahkan di sini
+        Box(
+            modifier = modifier.height(110.dp).fillMaxWidth().background(color = Color.Yellow),
+            contentAlignment = Alignment.Center
+        ) {
+
+        }
     }
 }
